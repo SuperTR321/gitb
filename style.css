@@ -1,0 +1,14 @@
+canvas {
+    border: solid;
+    border-radius:10px;
+    animation-name: shadow;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    background-color:white;
+}
+
+@keyframes shadow {
+    from{box-shadow: 10px 10px 10px blue;}
+    to{box-shadow: 10px 10px 10px green;}
+    to{box-shadow: 10px 10px 10px rgb(248, 245, 246);}
+}
